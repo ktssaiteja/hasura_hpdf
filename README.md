@@ -1,1 +1,1 @@
-# hasura_hpdf
+# Hasura Product Development Fellowship
