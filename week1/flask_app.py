@@ -1,4 +1,4 @@
-from flask import Flask, make_response, request, render_template#, jsonify "for returnig lists, dictionaries"
+from flask import Flask, make_response, request, render_template
 import requests
 import json
 
@@ -96,6 +96,7 @@ def form1():
 @app.route("/welcome", methods=['POST'])
 def welcome():
     user = request.form['nm']
+    print("Welcome " + user + "!")
     return "Welcome " + user + "!"
 
 
